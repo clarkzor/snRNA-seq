@@ -8,4 +8,8 @@
 
 cd /dfs10/bio/clarklh/Rcistarget/pyscenic/
 
-pyscenic aucell /dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/InnerNNE_St10-13CombTraj_transposed_gene_expression_data.csv /dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_Subset_50kb_ATAC-Regions_PPR.motifs.csv --output /dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_subset_Adj005_AllGenesMatrix_50kb_ATAC-Regions_aucell_PPR.csv --num_workers 10
+TRANSPOSED_MATRIX=/dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/InnerNNE_St10-13CombTraj_transposed_gene_expression_data.csv
+REGULON_PREDICTION=/dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_Subset_50kb_ATAC-Regions_PPR.motifs.csv
+AUCELL_OUTPUT=/dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_subset_Adj005_AllGenesMatrix_50kb_ATAC-Regions_aucell_PPR.csv
+
+pyscenic aucell $TRANSPOSED_MATRIX $REGULON_PREDICTION --output $AUCELL_OUTPUT --num_workers 10
