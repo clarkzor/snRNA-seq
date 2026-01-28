@@ -14,5 +14,4 @@ MotifAnnotations=RcisTargetDB2.tbl
 SingleNucleiExpressionMatrix=/dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_St10-13CombTraj_transposed_gene_expression_data.csv
 Output=/dfs10/bio/clarklh/Rcistarget/pyscenic/ThesisChap3/fuckyou/InnerNNE_Subset_50kb_ATAC-Regions.motifs.csv
 
-
 pyscenic ctx $Adjacencies $RankedMotifRegions --annotations_fname $MotifAnnotations --expression_mtx_fname $SingleNucleiExpressionMatrix  --output $Output --num_workers 15 --mode custom_multiprocessing --mask_dropouts
