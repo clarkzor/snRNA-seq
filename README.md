@@ -1,0 +1,1 @@
+Python based scripts for both single cell/nucleus RNA sequencing analysis using scanpy, numpy, scipy, pandas, matplotlib, anndata alongisde the STREAM (Pinello lab) and SCENIC (Aertz lab) software. R based script for the first multiomic analysis in X. tropicalis using Signac software package. 
