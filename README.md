@@ -1,5 +1,7 @@
-Python based jupyter notebooks for both single cell/nucleus RNA sequencing analysis using scanpy, numpy, scipy, pandas, matplotlib and anndata alongside the STREAM (Pinello lab) and SCENIC (Aertz lab) software.
+Multiomic - First multiomic analysis of X. tropicalis based in R.
 
-BASH scripts are for generating the SCENIC motif database, regulon predictions and calculating AUCell scores within the dataset.
+Quality Control (QC) and Annotation Analysis - Single cell/nucleus RNA sequencing analysis based in Python.
 
-An R based script for the first multiomic analysis in X. tropicalis using Signac software package. 
+Trajectory Analysis - Gastrulation fate mapping using STREAM (Pinello lab) in Python.
+
+Gene Regulatory Network Analysis - Gastrulation gene regulatory network prediction using SCENIC (Aertz lab) in Bash and Python.
