@@ -1,7 +1,7 @@
 Multiomic - First multiomic analysis of X. tropicalis based in R.
 
-Quality Control (QC) and Annotation Analysis - Single cell/nucleus RNA sequencing analysis based in Python.
+Quality Control (QC) and Annotation Analysis - Single cell/nucleus RNA sequencing analysis ub Python.
 
-Trajectory Analysis - Gastrulation fate mapping using STREAM (Pinello lab) in Python.
+Trajectory Analysis - Gastrulation cell-type fate mapping in Python.
 
-Gene Regulatory Network Analysis - Gastrulation gene regulatory network prediction using SCENIC (Aertz lab) in Bash and Python.
+Gene Regulatory Network Analysis - Gastrulation gene regulatory network predictions in Bash and Python.
