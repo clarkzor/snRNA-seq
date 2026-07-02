@@ -1,6 +1,6 @@
 ## Overview
 
-Quality control (QC) and cell-type annotation analysis for single cell/nucleus RNA-sequencing datasets. Here, unfiltered [Gene X Expression] matrices produced from alignment are passed through different quality control metrics to remove unwanted cells and utilize gene expression signatures for cell-type annotation.
+Quality control (QC) and cell-type annotation analysis for single cell/nucleus RNA-sequencing datasets. Unfiltered [Gene X Expression] matrices produced from alignment are passed through different quality control metrics to remove unwanted cells and utilize gene expression signatures for cell-type annotation.
 
 ## Dataset
 
