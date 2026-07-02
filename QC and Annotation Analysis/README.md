@@ -38,15 +38,15 @@ Differential gene expression analysis
 
 ## Requirements
 
-- python       3.11.5,
-- scanpy       1.9.6,
-- pandas       2.1.4,
-- scipy        1.11.4,
-- anndata      0.10.3,
-- numpy        1.26.2,
-- matplotlib   3.8.2,
-- scrublet     0.2.3,
-- seaborn      0.12.2,
+- python       3.11.5
+- scanpy       1.9.6
+- pandas       2.1.4
+- scipy        1.11.4
+- anndata      0.10.3
+- numpy        1.26.2
+- matplotlib   3.8.2
+- scrublet     0.2.3
+- seaborn      0.12.2
 
 # Outputs
 
