@@ -1,6 +1,6 @@
 ## Overview
 
-Quality Control and Cell-Type Annotation analysis for single cell/nucleus RNA-sequencing datasets. Here, unfiltered [Gene X Expression] matrices produced from alignment are passed through different quality control metrics to remove unwanted cells and utilize gene expression signatures for cell-type annotation.
+Quality control (QC) and cell-type annotation analysis for single cell/nucleus RNA-sequencing datasets. Here, unfiltered [Gene X Expression] matrices produced from alignment are passed through different quality control metrics to remove unwanted cells and utilize gene expression signatures for cell-type annotation.
 
 ## Dataset
 
@@ -38,15 +38,15 @@ Differential gene expression analysis
 
 ## Requirements
 
-python       3.11.5
-scanpy       1.9.6
-pandas       2.1.4
-scipy        1.11.4
-anndata      0.10.3
-numpy        1.26.2
-matplotlib   3.8.2
-scrublet     0.2.3
-seaborn      0.12.2
+- python       3.11.5
+- scanpy       1.9.6
+- pandas       2.1.4
+- scipy        1.11.4
+- anndata      0.10.3
+- numpy        1.26.2
+- matplotlib   3.8.2
+- scrublet     0.2.3
+- seaborn      0.12.2
 
 # Outputs
 
@@ -57,3 +57,16 @@ The pipeline generates:
 - Clustering algorithm cell-type predictions
 - Marker gene cell-type annotations
 - Visualizations of differential gene expression analysis
+
+# Quality Control 
+
+Quality control includes filtering cells based on:
+- Total numbers of genes/cell
+- Proportion of mitochondrial and ribosomal reads
+- Doublet detection
+
+# Validation
+
+ Pipeline validation was performed using the publicly available bechmark dataset found at GSEX. Reproducibility of QC, marker gene detection, clustering consistency and cell-type annotation. 
+
+ See **docs/Validation_Report.md**
