@@ -61,7 +61,7 @@ The pipeline generates:
 
 # Documentation
 
-**docs/AnalysisPlan.md**
-**docs/QC_Report.md**
-**docs/Validation_Report.md**
-**docs/Reproducibility.md**
+-**docs/AnalysisPlan.md**
+-**docs/QC_Report.md**
+-**docs/Validation_Report.md**
+-**docs/Reproducibility.md**
