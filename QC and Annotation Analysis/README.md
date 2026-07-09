@@ -16,7 +16,8 @@ Pre-processing and quality control
 - Doublet identification
 - Normalization (including batch effects)
 - High Variable Gene calling
-- Regression analysis
+- Regression and scaling analysis
+- Batch effect normalization
 
 Linear and non-linear dimension reduction analysis techniques
 - Principle Component Analysis (PCA)
@@ -58,15 +59,9 @@ The pipeline generates:
 - Marker gene cell-type annotations
 - Visualizations of differential gene expression analysis
 
-# Quality Control 
+# Documentation
 
-Quality control includes filtering cells based on:
-- Total numbers of genes/cell
-- Proportion of mitochondrial and ribosomal reads
-- Doublet detection
-
-# Validation
-
- Pipeline validation was performed using the publicly available bechmark dataset found at GSEX. Reproducibility of QC, marker gene detection, clustering consistency and cell-type annotation. 
-
- See **docs/Validation_Report.md**
+**docs/AnalysisPlan.md**
+**docs/QC_Report.md**
+**docs/Validation_Report.md**
+**docs/Reproducibility.md**
