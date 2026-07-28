@@ -14,6 +14,3 @@ results/<stage>[/<condition>]/
 └── tables/
 ```
 
-Keep large `.h5ad` files and complete figure collections outside normal Git
-history. Copy selected final figures to a separate tracked manuscript directory
-when needed.
