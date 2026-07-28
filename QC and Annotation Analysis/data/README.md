@@ -13,6 +13,3 @@ data/raw/Stage12_0/PARSE-MOSt12-Unfiltered_FromSeurat.h5ad
 data/raw/Stage12_5/PARSE-WTSt12_5-Unfiltered_FromSeurat.h5ad
 data/raw/Stage13/PARSE-WTSt13-Unfiltered_FromSeurat.h5ad
 ```
-
-Store sample sheets, marker lists, and other lightweight metadata beneath
-`data/metadata/`.
