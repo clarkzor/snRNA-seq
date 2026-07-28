@@ -22,10 +22,7 @@ five developmental time points:
 
 The executed notebook outputs currently report **73,215 retained
 singlet nuclei** after Scrublet filtering and **65,072 nuclei in the
-final annotation tables**. These values replace the earlier README estimate of
-86,350 cells, which is not reproduced by the uploaded notebook outputs. Rerun
-the cleaned notebooks to regenerate the summary tables after any final
-annotation edits.
+final annotation tables**.
 
 Libraries were prepared using PARSE Evercode WT-mini and sequenced on an
 Illumina NovaSeq 6000, according to the project metadata supplied with this
