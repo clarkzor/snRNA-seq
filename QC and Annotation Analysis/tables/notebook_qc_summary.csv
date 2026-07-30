@@ -1,8 +1,0 @@
-notebook,stage,condition,initial_barcodes,n_genes,after_min_genes,after_mt_ribo,predicted_doublets,doublet_rate_percent,scrublet_threshold,retained_singlets,retained_percent,final_annotated_cells,final_annotation_classes
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage10-Xtrop_descriptive_section_paths(1).ipynb,Stage10,WT,215209,21821,15920,15920,1820,11.4,0.2,14100,6.55,14100,14
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-MO_Xtrop_descriptive_section_paths.ipynb,Stage11.25,MO,110590,21821,6533,6533,503,7.7,0.24,6030,5.45,5995,16
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-WT_Xtrop_descriptive_section_paths.ipynb,Stage11.25,WT,110592,21821,7971,7971,1446,18.1,0.15,6525,5.9,6516,16
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12_5-WT_Xtrop_descriptive_section_paths.ipynb,Stage12.5,WT,110592,29231,11908,11908,1608,13.5,0.17,10300,9.31,10237,32
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-MO_Xtrop_descriptive_section_paths.ipynb,Stage12.0,MO,110590,21821,13967,13967,1369,9.8,0.22,12598,11.39,8598,28
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-WT_Xtrop_descriptive_section_paths.ipynb,Stage12.0,WT,110592,21821,14754,14754,0,0.0,0.76,14754,13.34,10789,27
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage13-WT_Xtrop_descriptive_section_paths.ipynb,Stage13,WT,110584,29231,10074,10074,1166,11.6,0.16,8908,8.06,8837,41
