@@ -1,0 +1,22 @@
+Notebook format and static syntax validation
+=============================================
+Generated (UTC): 2026-07-28T23:50:42.059107+00:00
+Repository: .
+
+Checks performed:
+- Jupyter notebook schema validation with nbformat.validate
+- Static Python syntax compilation of every code cell after IPython transforms
+- Notebook execution: NOT performed
+
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage10-Xtrop_github_clean.ipynb | nbformat=True | code_cells=94 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-MO_Xtrop_github_clean.ipynb | nbformat=True | code_cells=100 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-WT_Xtrop_github_clean.ipynb | nbformat=True | code_cells=100 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-MO_Xtrop_github_clean.ipynb | nbformat=True | code_cells=123 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-WT_Xtrop_github_clean.ipynb | nbformat=True | code_cells=131 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12_5-WT_Xtrop_github_clean.ipynb | nbformat=True | code_cells=119 | syntax=True
+[PASS] snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage13-WT_Xtrop_github_clean.ipynb | nbformat=True | code_cells=125 | syntax=True
+
+Summary: 7 passed; 0 failed; 7 checked.
+
+Important: PASS confirms valid notebook structure and static code syntax only. 
+It does not confirm that cells execute successfully against the required .h5ad files.

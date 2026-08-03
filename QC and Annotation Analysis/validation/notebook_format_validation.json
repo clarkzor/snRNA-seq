@@ -1,0 +1,93 @@
+{
+  "generated_at_utc": "2026-07-28T23:50:42.059107+00:00",
+  "project_root": ".",
+  "checks": {
+    "notebook_schema": "nbformat.validate",
+    "code_cell_syntax": "IPython transform followed by Python compile",
+    "notebook_execution": false
+  },
+  "summary": {
+    "notebooks_checked": 7,
+    "passed": 7,
+    "failed": 0
+  },
+  "results": [
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage10-Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage10-Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 94,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-MO_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-MO_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 100,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-WT_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-WT_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 100,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-MO_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-MO_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 123,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-WT_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-WT_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 131,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12_5-WT_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12_5-WT_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 119,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    },
+    {
+      "notebook": "snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage13-WT_Xtrop_github_clean.ipynb",
+      "relative_path": "notebooks\\snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage13-WT_Xtrop_github_clean.ipynb",
+      "nbformat_valid": true,
+      "nbformat_error": "",
+      "code_cells": 125,
+      "python_syntax_valid": true,
+      "syntax_error_count": 0,
+      "syntax_errors": [],
+      "status": "PASS"
+    }
+  ]
+}
