@@ -281,29 +281,3 @@ scrublet
 Exact package versions should be recorded with each analysis release.
 
 ---
-
-# Project Status
-
-This repository is under active development.
-
-The current workflows support:
-
-* snRNA-seq preprocessing and QC
-* doublet filtering
-* dimensionality reduction
-* Leiden clustering
-* marker-based cell annotation
-* paired RNA + ATAC processing
-* WNN multimodal integration
-* multimodal UMAP visualization
-* expression-driven annotation
-* ATAC locus visualization
-* peak-to-gene analysis
----
-
-# Organism
-
-**Species:** *Xenopus tropicalis*
-**Developmental context:** Early gastrula-stage embryos
-**Modalities:** snRNA-seq and paired RNA + ATAC multiome sequencing
-
