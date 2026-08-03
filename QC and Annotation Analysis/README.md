@@ -1,4 +1,5 @@
-# Xenopus tropicalis gastrulation timecourse snRNA-seq quality control & annotation
+# Xenopus tropicalis gastrulation timecourse snRNA-seq
+# quality control & annotation
 
 Quality control, dimensionality reduction, clustering, marker-guided cell-type
 annotation, label refinement, and differential gene-expression analysis for a
