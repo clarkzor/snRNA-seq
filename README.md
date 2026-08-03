@@ -1,11 +1,11 @@
 # Xenopus tropicalis Single-Nucleus(Cell) and Multiomic Analysis
 
-This repository contains analysis workflows for **early gastrula-stage *Xenopus tropicalis*** single-cell and multiomic sequencing data. The repository is organized into two complementary analysis branches:
+This repository contains analysis workflows for **gastrula-stage *Xenopus tropicalis*** single-nuclei and multiomic sequencing data. The repository is organized into two complementary analysis branches:
 
 1. **Multiomic RNA + ATAC analysis** using Seurat and Signac.
 2. **snRNA-seq quality control and cell-type annotation** using Scanpy.
 
-The goal of this repository is to provide a reproducible framework for processing, quality controlling, integrating, visualizing, and annotating early embryonic cell populations across transcriptomic and chromatin-accessibility measurements.
+The goal of this repository is to provide a reproducible framework for processing, quality controlling, integrating, visualizing, and annotating early embryonic nuclei populations across transcriptomic and chromatin-accessibility measurements.
 
 ---
 
