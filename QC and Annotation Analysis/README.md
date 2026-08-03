@@ -15,17 +15,14 @@ five developmental time points:
 | Stage10 WT    |           215209 |   21821 |          15920 |             15920 |                 1820 |               14100 |             14100 |
 | Stage11.25 WT |           110592 |   21821 |           7971 |              7971 |                 1446 |                6525 |              6516 |
 | Stage11.25 MO |           110590 |   21821 |           6533 |              6533 |                  503 |                6030 |              5995 |
-| Stage12.0 WT  |           110592 |   21821 |          14754 |             14754 |                    0 |               14754 |             10789 |
+| Stage12.0 WT  |           110592 |   21821 |          14754 |             14754 |                 3965 |               10789 |             10789 |
 | Stage12.0 MO  |           110590 |   21821 |          13967 |             13967 |                 1369 |               12598 |              8598 |
 | Stage12.5 WT  |           110592 |   29231 |          11908 |             11908 |                 1608 |               10300 |             10237 |
 | Stage13 WT    |           110584 |   29231 |          10074 |             10074 |                 1166 |                8908 |              8837 |
 
 The executed notebook outputs currently report **73,215 retained
 singlet nuclei** after Scrublet filtering and **65,072 nuclei in the
-final annotation tables**. These values replace the earlier README estimate of
-86,350 cells, which is not reproduced by the uploaded notebook outputs. Rerun
-the cleaned notebooks to regenerate the summary tables after any final
-annotation edits.
+final annotation tables**. 
 
 Libraries were prepared using PARSE Evercode WT-mini and sequenced on an
 Illumina NovaSeq 6000, according to the project metadata supplied with this
@@ -148,19 +145,6 @@ Important generated files include:
 - DEG comparison inventories and parameter records;
 - descriptively named figures without notebook cell numbers.
 
-Repository-level notebook validation reports are stored separately in:
-
-```text
-validation/
-├── notebook_format_validation.csv
-├── notebook_format_validation.json
-└── notebook_format_validation.txt
-```
-
-These files document notebook schema and static code-cell syntax checks. The
-stage-specific `results/.../validation/` directories remain reserved for
-biological or runtime validation outputs.
-
 ## Documentation
 
 - [`docs/AnalysisPlan.md`](docs/AnalysisPlan.md): completed analysis aims,
@@ -168,8 +152,6 @@ biological or runtime validation outputs.
 - [`docs/Pipeline.md`](docs/Pipeline.md): implemented workflow and parameters.
 - [`docs/QC_Report.md`](docs/QC_Report.md): QC thresholds and notebook-derived
   retention statistics.
-- [`docs/Validation_Report.md`](docs/Validation_Report.md): annotation evidence,
-  validation strategy, limitations, and recommended checks.
 - [`docs/Reproducibility.md`](docs/Reproducibility.md): environment, paths,
   execution, and version-control guidance.
 - [`docs/Notebook_Audit.md`](docs/Notebook_Audit.md): issues found and changes
