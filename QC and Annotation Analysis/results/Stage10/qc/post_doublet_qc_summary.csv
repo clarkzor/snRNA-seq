@@ -1,0 +1,6 @@
+metric,value
+cells_before_doublet_filter,15920.0
+predicted_doublets_removed,1820.0
+cells_after_doublet_filter,14100.0
+mean_reads_per_cell,3659.695035460993
+median_reads_per_cell,3274.0
