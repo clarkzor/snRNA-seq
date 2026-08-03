@@ -31,9 +31,6 @@ The goal of this repository is to provide a reproducible framework for processin
 │
 └── README.md
 ```
-
-> Folder names may differ slightly depending on the local clone. Each analysis folder contains its own documentation describing the corresponding workflow in more detail.
-
 ---
 
 # 1. Multiomic RNA + ATAC Analysis
