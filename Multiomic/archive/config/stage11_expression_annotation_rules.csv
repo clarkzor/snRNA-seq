@@ -1,0 +1,17 @@
+priority,rule_name,label,positive_all,positive_any,negative_all,positive_threshold,negative_threshold,rationale
+1,cement_gland_agr2_ag1,Cement Gland,agr2;ag1,,,0.05,0.05,Direct Stage 11 Python-style double-positive rule.
+2,ciliated_epidermal_progenitor,Ciliated Epidermal Progenitor,mcidas;foxj1,,,0.05,0.05,dnah5 is retained in the validation marker panel but is not required for assignment.
+3,novel_ectoderm_tp73_dscaml1,Novel Ecto. (tp73/dscaml1),tp73;dscaml1,,,0.05,0.05,Preserves the manually identified tp73/dscaml1 population.
+4,neural_plate_border,Neural Plate Border,pax3;sox3,,,0.95,0.05,High pax3 and sox3; evaluated before the broader neural-plate rule.
+5,ventral_endoderm_darmin_gata6_wnt8a,Ventral Endoderm,darmin;gata6;wnt8a,,,0.05,0.05,Matches the Stage 11 Python endoderm refinement.
+6,dorsal_endoderm_darmin_gata6,Dorsal Endoderm,darmin;gata6,,wnt8a,0.05,0.05,darmin/gata6 positive with wnt8a not above threshold.
+7,ventral_endoderm_slc5a8_ventx,Ventral Endoderm,slc5a8.1;ventx1.1,,,0.05,0.05,Alternative outer-layer endoderm rule from the Python notebook.
+8,dorsal_endoderm_slc5a8,Dorsal Endoderm,slc5a8.1,,ventx1.1,0.05,0.05,Alternative outer-layer dorsal endoderm rule.
+9,ventral_mesoderm_tbxt_wnt8a,Ventral Mesoderm,tbxt;wnt8a,,,0.25,0.05,Stage 11 Python inner-layer ventral mesoderm rule.
+10,ventral_mesoderm_fgf8_ventx,Ventral Mesoderm,fgf8;ventx1.1,,,0.05,0.05,Alternative Stage 11 Python mesoderm rule.
+11,dorsal_mesoderm_chrd,Dorsal Mesoderm,chrd.1,,,3.0,0.05,High-specificity dorsal mesoderm seed.
+12,dorsal_mesoderm_tbxt_low_ventx,Dorsal Mesoderm,tbxt,,ventx1.1,0.95,0.05,tbxt-positive with low ventx1.1.
+13,dorsal_mesoderm_foxj1_fgf8,Dorsal Mesoderm,foxj1;fgf8,,,0.05,0.05,Alternative Python rule; ciliated cells are assigned earlier by priority.
+14,non_neural_ectoderm_inner,Non-neural Ectoderm (inner),tp63,,,0.95,0.05,Strong tp63 seed for inner/basal non-neural ectoderm.
+15,non_neural_ectoderm_outer,Non-neural Ectoderm (outer),krt7;grhl1,,,0.05,0.05,Keratin/grainyhead-positive outer epithelial ectoderm.
+16,neural_plate,Neural Plate,sox2;sox3,,,0.95,0.05,Broad neural plate rule evaluated after neural plate border.

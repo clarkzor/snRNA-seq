@@ -1,0 +1,66 @@
+---
+title: "Xenopus tropicalis Stage 11 RNA+ATAC multiome analysis"
+output: html_document
+---
+
+This notebook is a narrative entry point to the modular pipeline. The underlying analysis
+lives in `scripts/` so the same code can be run non-interactively and version controlled.
+
+```{r setup, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = TRUE, message = TRUE)
+source("../scripts/00_setup.R")
+```
+
+## Build multimodal object
+
+```{r create-object}
+source("../scripts/01_create_multiome_object.R")
+```
+
+## Quality control
+
+```{r qc}
+source("../scripts/02_qc_filtering.R")
+```
+
+## RNA processing
+
+```{r rna}
+source("../scripts/03_rna_processing.R")
+```
+
+## ATAC processing
+
+```{r atac}
+source("../scripts/04_atac_processing.R")
+```
+
+## WNN integration and clustering
+
+```{r integration}
+source("../scripts/05_wnn_integration.R")
+source("../scripts/06_clustering.R")
+```
+
+## Expression-based annotation
+
+```{r annotation}
+source("../scripts/07_expression_annotation.R")
+source("../scripts/08_annotation_validation.R")
+```
+
+## Optional chromatin visualization and links
+
+These are controlled by `RUN_COVERAGE_PLOTS` and `RUN_PEAK_GENE_LINKS` in
+`config/analysis_config.R`.
+
+```{r optional-atac}
+source("../scripts/09_coverage_plots.R")
+source("../scripts/10_peak_gene_links.R")
+```
+
+## Finalize
+
+```{r finalize}
+source("../scripts/11_finalize.R")
+```

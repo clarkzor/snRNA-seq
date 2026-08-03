@@ -1,0 +1,31 @@
+cell_type,gene
+Neural Plate,sox2
+Neural Plate,sox3
+Neural Plate Border,pax3
+Neural Plate Border,sox3
+Non-neural Ectoderm (inner),tp63
+Non-neural Ectoderm (outer),krt7
+Non-neural Ectoderm (outer),grhl1
+Dorsal Mesoderm,tbxt
+Dorsal Mesoderm,chrd.1
+Dorsal Mesoderm,foxj1
+Dorsal Mesoderm,fgf8
+Ventral Mesoderm,tbxt
+Ventral Mesoderm,wnt8a
+Ventral Mesoderm,ventx1.1
+Ventral Mesoderm,fgf8
+Dorsal Endoderm,darmin
+Dorsal Endoderm,gata6
+Dorsal Endoderm,slc5a8.1
+Ventral Endoderm,darmin
+Ventral Endoderm,gata6
+Ventral Endoderm,wnt8a
+Ventral Endoderm,slc5a8.1
+Ventral Endoderm,ventx1.1
+Cement Gland,agr2
+Cement Gland,ag1
+Ciliated Epidermal Progenitor,mcidas
+Ciliated Epidermal Progenitor,foxj1
+Ciliated Epidermal Progenitor,dnah5
+Novel Ecto. (tp73/dscaml1),tp73
+Novel Ecto. (tp73/dscaml1),dscaml1
