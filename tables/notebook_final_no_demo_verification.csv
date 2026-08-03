@@ -1,8 +1,0 @@
-notebook,nbformat_valid,syntax_ok,syntax_errors,demo_code_removed,forbidden_demo_tokens,project_root_markers,section1_routes_to_qc,scrublet_histogram_to_qc,post_doublet_histogram,post_doublet_bar,post_doublet_tables,section5_direct_results_paths,section6_direct_results_paths,final_save_to_processed_data,outputs_cleared,execution_counts_cleared
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage10-Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-MO_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage11-WT_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-MO_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12-WT_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage12_5-WT_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
-snRNAseq_Preprocessing-QualityControl-Annotation_EarlyGastrula-Stage13-WT_Xtrop_github_clean.ipynb,True,True,,True,,True,True,True,True,True,True,True,True,True,True,True
