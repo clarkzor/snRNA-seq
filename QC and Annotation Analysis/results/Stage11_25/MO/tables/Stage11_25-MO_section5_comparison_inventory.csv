@@ -1,0 +1,5 @@
+comparison,group_1,group_2,status,group_1_cells,group_2_cells
+ventral_mesoderm_1_vs_2,Ventral Mesoderm 1,Ventral Mesoderm 2,completed,151,349
+epidermis_1_vs_2,Epidermis1,Epidermis 2,completed,472,378
+neuroectoderm_1_vs_2,Neuroectoderm 1,Neuroectoderm 2,completed,636,733
+ventral_endoderm_1_vs_2,Ventral Endoderm 1,Ventral Endoderm 2,completed,102,162
