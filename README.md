@@ -1,4 +1,4 @@
-# Xenopus tropicalis Single-Cell and Multiomic Analysis
+# Xenopus tropicalis Single-Nucleus(Cell) and Multiomic Analysis
 
 This repository contains analysis workflows for **early gastrula-stage *Xenopus tropicalis*** single-cell and multiomic sequencing data. The repository is organized into two complementary analysis branches:
 
