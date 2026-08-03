@@ -1,0 +1,4 @@
+comparison,group_1,group_2,status,group_1_cells,group_2_cells
+epidermis_1_vs_2,Epidermis 1,Epidermis 2,completed,952,472
+neural_plate_1_vs_2,Neural Plate 1,Neural Plate 2,completed,335,980
+neural_plate_border_1_vs_2,Neural Plate Border 1,Neural Plate Border 2,completed,344,219
