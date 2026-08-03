@@ -278,6 +278,4 @@ scipy
 scrublet
 ```
 
-Exact package versions should be recorded with each analysis release.
-
 ---
