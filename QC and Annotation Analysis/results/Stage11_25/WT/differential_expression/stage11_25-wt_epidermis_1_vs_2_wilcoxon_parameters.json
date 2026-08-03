@@ -1,0 +1,13 @@
+{
+  "groupby": "region_annotation",
+  "reference": "rest",
+  "method": "wilcoxon",
+  "use_raw": false,
+  "layer": null,
+  "corr_method": "benjamini-hochberg",
+  "rank_genes_groups_key": "epidermis_1_vs_2_wilcoxon",
+  "export_prefix": "stage11_25-wt_epidermis_1_vs_2_wilcoxon",
+  "fdr_max": 0.05,
+  "abs_log2fc_min": 1.0,
+  "top_n": 25
+}
