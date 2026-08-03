@@ -210,26 +210,6 @@ Marker expression is evaluated through UMAP visualization, expression plots, and
 
 ---
 
-# Relationship Between the Two Analysis Branches
-
-The two folders address complementary aspects of the same biological system.
-
-The snRNA-seq workflow provides a transcriptome-focused framework for:
-
-* quality control
-* cluster identification
-* marker discovery
-* cell-type annotation
-
-The multiomic workflow extends this framework by jointly examining:
-
-* gene expression
-* chromatin accessibility
-
-Together, these analyses allow transcriptional cell states to be compared with their underlying regulatory landscapes.
-
----
-
 # Data
 
 Large sequencing files are intentionally excluded from GitHub.
